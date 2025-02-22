@@ -1,0 +1,9 @@
+cvrs_btn.addEventListener("click",()=>{
+	cvrs_txt_v=cvrs_txt.value.split(/\n/);
+	for(i=0;i<cvrs_txt_v.length;i++){
+		if(cvrs_txt_v[i].match(bfr_txt.value)){
+			cvrs_txt_v[i]=aft_txt.value
+		}
+	}
+	cvrs_txt.value=cvrs_txt_v.join("\n");
+});
