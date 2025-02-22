@@ -1,0 +1,14 @@
+{
+	"manifest_version": 3,
+	"version": "1.0",
+	"name": "特定の文字列を含む行を置き換える",
+	"icons": {
+	    "16": "icon16.png",
+	    "48": "icon48.png",
+	    "128": "icon128.png"
+	},
+	"action": {
+	     "default_icon": "popup16.png",
+	     "default_popup": "index.html"
+	 }
+}
